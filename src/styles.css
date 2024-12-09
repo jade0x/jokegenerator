@@ -1,0 +1,43 @@
+body {
+  margin: auto;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  align-items: center;
+  font-size: large;
+  background-color: #ffde34;
+}
+
+#app {
+  margin-top: 50px;
+}
+
+button {
+  margin: 20px;
+  padding: 7px 25px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: large;
+  background-color: #ffff;
+  border: 0px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 17px -8px rgba(0, 0, 0, 0.54);
+}
+
+button:hover {
+  cursor: pointer;
+  font-size: x-large;
+}
+
+#joke {
+  margin: auto;
+  max-width: 60%;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 20px 5px 5px 5px;
+  font-size: small;
+}
